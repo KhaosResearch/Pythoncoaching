@@ -1,9 +1,7 @@
 Pythoncoaching
 ===================
 
-
-<i class="icon-download"></i>Clonar con Pycharm
--------------
+#### <i class="icon-upload"></i> Clonar con Pycharm
 
 
 - En el IDE Pycharm > VCS > Checkout form version control > Github:

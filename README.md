@@ -5,7 +5,7 @@ Pythoncoaching
 
 
 - IDE Pycharm > VCS > Checkout form version control > Github:
-	Repository URL:  https://github.com/KhaosResearch/Pythoncoaching.git
+	- Repository URL:  https://github.com/KhaosResearch/Pythoncoaching.git
 - Create virtualenv environment into project:
 	- File > settings > Search 'Project Interpreter'. Click to 'create virtualenv'.
 	- In the new window opened, type name 'env'. Place it within the project directory. Choose the python3 interpreter. Click 'Ok'.
@@ -14,6 +14,6 @@ Pythoncoaching
 - Install dependencies
 	- Open the Pycharm terminal by pressing ALT + F12.
 	- Access the virtual environment of the project:
-		source venv//bin/activate
+	:	source venv//bin/activate
 	- Install the dependencies defined in requirements.txt:
-	 	pip freeze > requirements.txt
+	:	pip freeze > requirements.txt

@@ -14,6 +14,6 @@ Pythoncoaching
 - Install dependencies
 	- Open the Pycharm terminal by pressing ALT + F12.
 	- Access the virtual environment of the project:
-	:	source venv//bin/activate
+	   source venv//bin/activate
 	- Install the dependencies defined in requirements.txt:
-	:	pip freeze > requirements.txt
+	   pip freeze > requirements.txt

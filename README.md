@@ -2,7 +2,7 @@ Pythoncoaching
 ===================
 
 
-#### <i class="icon-download"></i>Clonar con Pycharm
+<i class="icon-download"></i>Clonar con Pycharm
 -------------
 
 

@@ -1,7 +1,7 @@
 Pythoncoaching
 ===================
 
-#### <i class="icon-upload"></i> Clone with Pycharm
+#### <i class="icon-upload"></i> Collaborate with IDE Pycharm
 
 
 - IDE Pycharm > VCS > Checkout form version control > Github:

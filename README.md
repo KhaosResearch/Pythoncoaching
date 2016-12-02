@@ -1,19 +1,19 @@
 Pythoncoaching
 ===================
 
-#### <i class="icon-upload"></i> Clonar con Pycharm
+#### <i class="icon-upload"></i> Clone with Pycharm
 
 
-- En el IDE Pycharm > VCS > Checkout form version control > Github:
-	URL del repositorio:  https://github.com/KhaosResearch/Pythoncoaching.git
-- Crear entorno virtualenv en el proyecto:
-	- File > settings > Buscar 'Project Interpreter'. Pulsar en 'create virtualenv'.
-	- En la nueva ventana que se abre, poner como nombre 'env' por ejemplo. En el campo 'location' ubicarlo dentro del directorio del proyecto y elegir el interprete python3. Pulsar 'Ok'.
-	- Ya se ha creado el entorno virtual del proyecto. En la misma ventana, aparece el listado de dependencias. Vemos que por defecto virtualenv ha instalado 3 paquetes: pip, setuptools y wheel. Actualizar los 3 a la ultima versión: seleccionarlos y pulsar en el botón de flecha hacia arriba.
-	- Pulsar en 'Aplicar' y luego en 'Ok'.
-- Instalar dependencias
-	- Abrir el terminal de Pycharm pulsando en ALT + F12. Situarse en el directorio del proyecto si no lo está.
-	- Acceder al entorno virtual del proyecto:
+- IDE Pycharm > VCS > Checkout form version control > Github:
+	Repository URL:  https://github.com/KhaosResearch/Pythoncoaching.git
+- Create virtualenv environment into project:
+	- File > settings > Search 'Project Interpreter'. Click to 'create virtualenv'.
+	- In the new window opened, type name 'env'. Place it within the project directory. Choose the python3 interpreter. Click 'Ok'.
+	- Once the virtual environment is created, update the three dependencies that you have installed virtualenv: pip, setuptools y wheel (select it and click to blue up arrow).
+	- Click to 'Apply'.
+- Install dependencies
+	- Open the Pycharm terminal by pressing ALT + F12.
+	- Access the virtual environment of the project:
 		source venv//bin/activate
-	- Instalar las dependencias definidas en requirements.txt:
+	- Install the dependencies defined in requirements.txt:
 	 	pip freeze > requirements.txt
